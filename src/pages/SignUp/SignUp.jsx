@@ -14,13 +14,7 @@ const SignUp = () => {
 
             {/*   -----------------  */}
 
-            <div className="flex flex-col justify-evenly md:flex-row
-            ">
-
-
-
-
-
+            <div className="flex flex-col justify-evenly md:flex-row ">
                 <form noValidate="" action="" className="space-y-8">
                     <div className="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
 
@@ -119,10 +113,6 @@ const SignUp = () => {
                     </button>
                 </div>
               </div>
-
-
-
-
 
             </div>
 

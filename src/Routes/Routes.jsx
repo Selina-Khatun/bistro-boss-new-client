@@ -10,6 +10,7 @@ import SignUp from "../pages/SignUp/SignUp";
 import OurMenu from "../pages/OurMenu/OurMenu";
 import OurShop from "../pages/OurShop/OurShop";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import AddItem from "../pages/AddItem/AddItem";
 
 export const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
                 path: "/contact",
                 element: <ContactUs></ContactUs>
             },
+            {
+                path:'/addItem',
+                element:<AddItem></AddItem>
+            }
 
         ]
     },

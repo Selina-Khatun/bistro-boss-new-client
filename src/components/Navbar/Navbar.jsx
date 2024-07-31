@@ -34,6 +34,8 @@ const Navbar = () => {
                             <li><NavLink to={"/login"}>Login</NavLink></li>
                             <li><NavLink to={"/signUp"}>SignUp</NavLink></li>
 
+                            <li><NavLink to={"/addItem"}>Add Item</NavLink></li>
+
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -49,6 +51,7 @@ const Navbar = () => {
 
                         <li><NavLink to={"/login"}>Login</NavLink></li>
                         <li><NavLink to={"/signUp"}>SignUp</NavLink></li>
+                        <li><NavLink to={"/addItem"}>Add Item</NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
